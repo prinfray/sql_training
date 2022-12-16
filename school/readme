@@ -1,0 +1,1 @@
+docker run -it --network="host" --rm mysql mysql -h 127.0.0.1 -u root -pnotSecureChangeMe -e "source .\school\1schema_school.sql"
